@@ -28,7 +28,7 @@ To install the app on your own device:
 
 To integrate your AdMob Ad IDs, follow these steps:
 
-1. Open the `MainActivity.java` file.
+1. Open the `MainActivity.java` file, and replace `ca-app-pub-3940256099942544/1033173712` with your actual AdMob Interstitial Ad Unit ID.
 
    ```java
    // Initialize the AdView
@@ -58,13 +58,9 @@ To integrate your AdMob Ad IDs, follow these steps:
                         mInterstitialAd = null;
                     }
                 });
-   
-
-2. Replace "YOUR_INTERSTITIAL_AD_UNIT_ID" with your actual AdMob Interstitial Ad Unit ID.
-
-Save the changes and rebuild the app.
 
 
+2.  Replace application ID in Manifest file.
 ```xml
 //Replace with your application ID
 <meta-data
@@ -84,3 +80,5 @@ Save the changes and rebuild the app.
     android:layout_gravity="bottom"
     ads:adSize="BANNER"
     ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+```
+3. Add `google_services.json` in the app directory.

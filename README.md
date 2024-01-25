@@ -59,8 +59,8 @@ To integrate your AdMob Ad IDs, follow these steps:
                     }
                 });
    
-   // ...
-Replace "YOUR_INTERSTITIAL_AD_UNIT_ID" with your actual AdMob Interstitial Ad Unit ID.
+
+2. Replace "YOUR_INTERSTITIAL_AD_UNIT_ID" with your actual AdMob Interstitial Ad Unit ID.
 
 Save the changes and rebuild the app.
 
@@ -71,11 +71,11 @@ Save the changes and rebuild the app.
     android:name="com.google.android.gms.ads.APPLICATION_ID"
     android:value="ca-app-pub-6433617325894503~7780935405"/>
 
-// ...
-```
-Also in XML replace with your banner ID.
 
 ```
+3. In XML replace with your banner ID.
+
+```xml
 <com.google.android.gms.ads.AdView
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:id="@+id/adView"

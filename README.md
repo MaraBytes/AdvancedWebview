@@ -100,6 +100,10 @@ To integrate your AdMob Ad IDs, follow these steps:
   <img src="https://github.com/MaraBytes/AdvancedWebview/raw/master/screenshots/Screenshot_20240125-050612.png" width="300">
 
 </div>
+
+
+
+
 ## Support
 
 If you find this project helpful or just want to support its development, consider buying me a coffee:

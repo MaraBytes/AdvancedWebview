@@ -20,7 +20,7 @@ Welcome to AdvancedWebview! This AdvancedWebview comes with internet connection 
 
 To install the app on your own device:
 
-1. Download the app APK and Zip file from [marabytes.com](https://adweb-243c7.web.app/).
+1. Download the app APK and Zip file from [AdWeb.com](https://adweb-243c7.web.app/).
 
 2. Install the APK on your Android device.
 

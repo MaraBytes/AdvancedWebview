@@ -1,7 +1,5 @@
 # AdvancedWebview
 
-# My Awesome App
-
 Welcome to My Awesome App! This Android application comes with internet connection detection, banner and interstitial ads, and other exciting features.
 
 ## Features
@@ -12,7 +10,11 @@ Welcome to My Awesome App! This Android application comes with internet connecti
 
 - **Interstitial Ad:** Show a full-screen ad when the user returns to the app, providing a seamless ad experience.
 
-- **Other Features:** (Describe any additional features of your app)
+- **Google Analytics:** (Add your google_services.json file to the app directory).
+  
+- **Swipe to Refresh** Swipe from top of page to refresh current page.
+
+- **Link loading indicator** Show an indication when a link is loading using a progressbar.
 
 ## Installation
 
@@ -34,15 +36,48 @@ To integrate your AdMob Ad IDs, follow these steps:
    // Initialize the AdView
    adView = findViewById(R.id.adView);
    
-   // Replace "YOUR_BANNER_AD_UNIT_ID" with your actual AdMob Banner Ad Unit ID
-   adView.setAdUnitId("YOUR_BANNER_AD_UNIT_ID");
-   
    // ...
 
    // Initialize the InterstitialAd
    interstitialAd = new InterstitialAd(this);
    
    // Replace "YOUR_INTERSTITIAL_AD_UNIT_ID" with your actual AdMob Interstitial Ad Unit ID
-   interstitialAd.setAdUnitId("YOUR_INTERSTITIAL_AD_UNIT_ID");
+   InterstitialAd.load(this,"ca-app-pub-3940256099942544/1033173712", adRequest,
+                new InterstitialAdLoadCallback() {
+                    @Override
+                    public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
+                        // The mInterstitialAd reference will be null until
+                        // an ad is loaded.
+                        fullscreen();
+                        mInterstitialAd = interstitialAd;
+                        Log.i(TAG, "onAdLoaded");
+                    }
+
+                    @Override
+                    public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                        // Handle the error
+                        Log.d(TAG, loadAdError.toString());
+                        mInterstitialAd = null;
+                    }
+                });
    
    // ...
+   
+   ```Manifest
+   //Replace with your application ID
+     <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6433617325894503~7780935405"/>
+
+ // ...
+ 
+   ```XML
+   //Replace with your banner ID
+   <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+ // ...

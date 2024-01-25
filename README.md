@@ -98,5 +98,16 @@ To integrate your AdMob Ad IDs, follow these steps:
   <img src="https://github.com/MaraBytes/AdvancedWebview/raw/master/screenshots/Screenshot_20240125-050612.png" width="300">
 
 </div>
+## Support
+
+If you find this project helpful or just want to support its development, consider buying me a coffee:
+
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-%E2%98%95-brightgreen?logo=buy-me-a-coffee)](https://www.buymeacoffee.com/your-username)
+
+You can also support via PayPal:
+
+[![PayPal](https://img.shields.io/badge/Donate%20with%20PayPal-blue.svg?logo=paypal)](https://www.paypal.com/donate?hosted_button_id=your-button-id)
+
+Your support is greatly appreciated!
 
 

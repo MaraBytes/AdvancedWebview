@@ -88,13 +88,14 @@ To integrate your AdMob Ad IDs, follow these steps:
 
 ### Screen 1
 
-![Screen 1](https://github.com/MaraBytes/AdvancedWebview/tree/master/screenshots/Screenshot_20240125-050506.png | width=300)
+<img src="https://github.com/MaraBytes/AdvancedWebview/raw/master/screenshots/Screenshot_20240125-050506.png" width="300">
 
 ### Screen 2
 
-![Screen 2](https://github.com/MaraBytes/AdvancedWebview/tree/master/screenshots/Screenshot_20240125-050545.png | width=300)
+<img src="https://github.com/MaraBytes/AdvancedWebview/raw/master/screenshots/Screenshot_20240125-050545.png" width="300">
 
 ### Screen 3
 
-![Screen 3](https://github.com/MaraBytes/AdvancedWebview/tree/master/screenshots/Screenshot_20240125-050612.png | width=300)
+<img src="https://github.com/MaraBytes/AdvancedWebview/raw/master/screenshots/Screenshot_20240125-050612.png" width="300">
+
 

@@ -84,6 +84,8 @@ To integrate your AdMob Ad IDs, follow these steps:
 3. Add `google_services.json` in the app directory.
 
 
+
+
 ## Screenshots
 
 <div style="display: flex; justify-content: space-between;">
@@ -102,11 +104,11 @@ To integrate your AdMob Ad IDs, follow these steps:
 
 If you find this project helpful or just want to support its development, consider buying me a coffee:
 
-[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-%E2%98%95-brightgreen?logo=buy-me-a-coffee)](https://www.buymeacoffee.com/your-username)
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-%E2%98%95-brightgreen?logo=buy-me-a-coffee)](https://www.buymeacoffee.com/marabytes)
 
 You can also support via PayPal:
 
-[![PayPal](https://img.shields.io/badge/Donate%20with%20PayPal-blue.svg?logo=paypal)](https://www.paypal.com/donate?hosted_button_id=your-button-id)
+[![PayPal](https://img.shields.io/badge/Donate%20with%20PayPal-blue.svg?logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=KZ6MWY62NP3GL)
 
 Your support is greatly appreciated!
 

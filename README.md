@@ -82,3 +82,19 @@ To integrate your AdMob Ad IDs, follow these steps:
     ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
 ```
 3. Add `google_services.json` in the app directory.
+
+
+## Screenshots
+
+### Screen 1
+
+![Screen 1](screenshots/Screenshot_20240125-050506.png | width=300)
+
+### Screen 2
+
+![Screen 2](screenshots/Screenshot_20240125-050545.png | width=300)
+
+### Screen 3
+
+![Screen 3](screenshots/Screenshot_20240125-050612.png | width=300)
+
